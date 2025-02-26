@@ -34,6 +34,7 @@ public class MovieDriver_Task2 {
         
         //ask if they want to repeat
         System.out.println("do you want to enter another?");
+        scan.nextLine();
         ans = scan.nextLine();
         }while(ans.equalsIgnoreCase("yes"));
         
